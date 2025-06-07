@@ -1,0 +1,28 @@
+# Enable backend and vsync
+backend = "glx";
+vsync = true;
+use-damage = true;
+
+# No fade or blur
+fading = false;
+blur-background = false;
+
+# Default opacity (100% for everything)
+inactive-opacity = 1.0;
+active-opacity = 1.0;
+frame-opacity = 1.0;
+inactive-opacity-override = false;
+
+# Shadows off (optional)
+shadow = false;
+
+# Transparency rule only for st-256color
+opacity-rule = [
+  "80:class_g = 'st-256color'"
+];
+
+# Optional performance tweaks
+mark-wmwin-focused = true;
+mark-ovredir-focused = true;
+detect-client-opacity = true;
+
