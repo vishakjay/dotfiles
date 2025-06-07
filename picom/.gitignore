@@ -54,6 +54,8 @@ target
 # Misc files
 .vscode
 *.conf
+!picom.conf
+!picom.sample.conf
 !/tests/configs/*.conf
 !/data/*.conf
 perf.data
